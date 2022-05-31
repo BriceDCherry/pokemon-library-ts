@@ -1,0 +1,23 @@
+{
+    "name": "pokemon-library-ts",
+    "version": "1.0.0",
+    "description": "You're making a PokeDex, a list of Pokemon.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TheRayCannon/pokemon-library-ts.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TheRayCannon/pokemon-library-ts/issues"
+    },
+    "homepage": "https://github.com/TheRayCannon/pokemon-library-ts#readme",
+    "dependencies": {
+      "typescript": "^4.6.4"
+    }
+  }
