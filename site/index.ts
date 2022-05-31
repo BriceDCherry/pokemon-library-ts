@@ -53,7 +53,7 @@ fetch(url)
             }
         ).forEach(pokemonList => {
             console.log("run Forest")
-            ul.append(pokemonList)
+            ul?.append(pokemonList)
         })
     })
     .catch((error) => {
