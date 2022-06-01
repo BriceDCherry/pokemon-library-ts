@@ -515,7 +515,6 @@ fetch(url).then((response)=>response.json()).then((response1)=>{
         return fetch(url1).then((response)=>response.json());
     });
     return Promise.all(httpReq);
-// Safe
 }).then((responses)=>{
     responses.map((response)=>{
         const pokemonList = document.createElement("div");

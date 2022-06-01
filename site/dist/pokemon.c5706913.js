@@ -514,25 +514,16 @@ function addPokemonImage(response) {
         <figure>
             <img src="${response.sprites.front_shiny}" alt="${pokeTitleCase}" />
             <figcaption>${pokeTitleCase}</figcaption>
-            <p>Abilities: ${response.abilities[0].ability.name}</p>
         </figure>
     `;
-    addPokemonAbility(response), console.log(response.abilities[0].ability.name);
+    console.log(response.abilities[0].ability.name);
     if (ul && div) ul.append(div);
 }
-function addPokemonAbility(response) {
-    const li = document.createElement("li");
-    li.innerHTML = ` 
-    <span class="ability-name">${response.abilities[0].ability.name} - </span>
-    <span class="ability-short-description">${response.abilities[0].ability.url}</span>
-`;
-    ul?.append(li);
-}
 fetch(`https://pokeapi.co/api/v2/pokemon/${queryString.get("pokemon")}`).then((response)=>response.json()).then((response1)=>{
+    addPokemonImage(response1);
     const abilitiesRequests = response1.abilities.map((ability)=>ability.ability.url).map((urlInd)=>{
         return fetch(urlInd).then((response)=>response.json());
     });
-    addPokemonImage(response1);
     return Promise.all(abilitiesRequests);
 }).then((response2)=>{
     response2.map((response)=>{
@@ -542,7 +533,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${queryString.get("pokemon")}`).then((r
             ${response.name[0].toUpperCase()}${response.name.slice(1)}
         </span>
         <span class="ability-short-description">
-            ${response.abilities.ability}
+            ${response.effect_entries[1].short_effect}
         </span>
         `;
         return li;
