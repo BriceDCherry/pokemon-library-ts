@@ -1,5 +1,10 @@
-4410
+4420
 47/home/bcherry4/pokemon-library-ts/tsconfig.json1654029499757871300 0
+54/home/bcherry4/pokemon-library-ts/site/dist/index.html1654034682887871300 0
+65/home/bcherry4/pokemon-library-ts/site/dist/index.e263d5cb.js.map1654034682897871300 0
+67/home/bcherry4/pokemon-library-ts/site/dist/pokemon.c5706913.js.map1654034682897871300 0
+56/home/bcherry4/pokemon-library-ts/site/dist/pokemon.html1654034682887871300 0
+43/home/bcherry4/pokemon-library-ts/site/dist1654034682907871300 1
 49/home/bcherry4/pokemon-library-ts/site/pokemon.ts1654034018437871300 0
 43/home/bcherry4/pokemon-library-ts/README.md1654029249387871300 0
 46/home/bcherry4/pokemon-library-ts/package.json1654034161947871300 0
@@ -241,7 +246,7 @@
 91/home/bcherry4/pokemon-library-ts/node_modules/caniuse-lite/data/features/xml-serializer.js1654034158547871300 0
 99/home/bcherry4/pokemon-library-ts/node_modules/caniuse-lite/data/features/document-currentscript.js1654034158037871300 0
 91/home/bcherry4/pokemon-library-ts/node_modules/caniuse-lite/data/features/input-datetime.js1654034158257871300 0
-38/home/bcherry4/pokemon-library-ts/site1654029417907871300 1
+38/home/bcherry4/pokemon-library-ts/site1654035507217871300 1
 93/home/bcherry4/pokemon-library-ts/node_modules/caniuse-lite/data/features/css-not-sel-list.js1654034157817871300 0
 92/home/bcherry4/pokemon-library-ts/node_modules/caniuse-lite/data/features/media-attribute.js1654034158327871300 0
 97/home/bcherry4/pokemon-library-ts/node_modules/caniuse-lite/data/features/js-regexp-lookbehind.js1654034158277871300 0
@@ -1638,6 +1643,7 @@
 60/home/bcherry4/pokemon-library-ts/node_modules/lmdb/index.js1654034157937871300 0
 98/home/bcherry4/pokemon-library-ts/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_load.c1654034157207871300 0
 64/home/bcherry4/pokemon-library-ts/node_modules/terser/PATRONS.md1654034157597871300 0
+49/home/bcherry4/pokemon-library-ts/site/.gitignore1654035507217871300 0
 63/home/bcherry4/pokemon-library-ts/node_modules/term-size/vendor1654034155767871300 1
 72/home/bcherry4/pokemon-library-ts/node_modules/terser/lib/mozilla-ast.js1654034157407871300 0
 74/home/bcherry4/pokemon-library-ts/node_modules/@babel/code-frame/README.md1654034155517871300 0
@@ -2252,6 +2258,7 @@
 87/home/bcherry4/pokemon-library-ts/node_modules/css-tree/lib/syntax/node/SelectorList.js1654034157737871300 0
 85/home/bcherry4/pokemon-library-ts/node_modules/typescript/lib/lib.es2021.weakref.d.ts1654034159867871300 0
 72/home/bcherry4/pokemon-library-ts/node_modules/@parcel/transformer-babel1654034157147871300 1
+66/home/bcherry4/pokemon-library-ts/site/dist/index.e03e9bb3.css.map1654034682897871300 0
 76/home/bcherry4/pokemon-library-ts/node_modules/type-fest/source/mutable.d.ts1654034156107871300 0
 71/home/bcherry4/pokemon-library-ts/node_modules/@parcel/packager-css/lib1654034156367871300 1
 76/home/bcherry4/pokemon-library-ts/node_modules/@swc/helpers/src/_decorate.js1654034157417871300 0
@@ -2388,6 +2395,7 @@
 104/home/bcherry4/pokemon-library-ts/node_modules/@parcel/core/test/fixtures/invalid-target-source-not-file1654034158167871300 1
 93/home/bcherry4/pokemon-library-ts/node_modules/@parcel/transformer-postcss/src/loadPlugins.js1654034156387871300 0
 94/home/bcherry4/pokemon-library-ts/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/midl.c1654034157497871300 0
+61/home/bcherry4/pokemon-library-ts/site/dist/index.e263d5cb.js1654034682897871300 0
 94/home/bcherry4/pokemon-library-ts/node_modules/@swc/helpers/src/_class_apply_descriptor_set.js1654034157307871300 0
 90/home/bcherry4/pokemon-library-ts/node_modules/@parcel/package-manager/test/fixtures/empty1654034157477871300 1
 92/home/bcherry4/pokemon-library-ts/node_modules/@parcel/runtime-js/src/helpers/.eslintrc.json1654034157217871300 0
@@ -3050,6 +3058,7 @@
 68/home/bcherry4/pokemon-library-ts/node_modules/is-arrayish/README.md1654034155517871300 0
 85/home/bcherry4/pokemon-library-ts/node_modules/@parcel/core/test/fixtures/main-global1654034158177871300 1
 70/home/bcherry4/pokemon-library-ts/node_modules/lmdb-linux-x64/index.js1654034155547871300 0
+62/home/bcherry4/pokemon-library-ts/site/dist/index.e03e9bb3.css1654034682887871300 0
 74/home/bcherry4/pokemon-library-ts/node_modules/@parcel/utils/src/stream.js1654034157687871300 0
 75/home/bcherry4/pokemon-library-ts/node_modules/@parcel/optimizer-terser/lib1654034156367871300 1
 69/home/bcherry4/pokemon-library-ts/node_modules/nth-check/package.json1654034155697871300 0
@@ -3412,6 +3421,7 @@
 88/home/bcherry4/pokemon-library-ts/node_modules/caniuse-lite/data/features/css-filters.js1654034157677871300 0
 95/home/bcherry4/pokemon-library-ts/node_modules/caniuse-lite/data/features/screen-orientation.js1654034158437871300 0
 102/home/bcherry4/pokemon-library-ts/node_modules/@parcel/node-resolver-core/test/fixture/nested/index.js1654034157277871300 0
+63/home/bcherry4/pokemon-library-ts/site/dist/pokemon.c5706913.js1654034682897871300 0
 66/home/bcherry4/pokemon-library-ts/node_modules/nan/doc/callback.md1654034156707871300 0
 73/home/bcherry4/pokemon-library-ts/node_modules/@parcel/hash/index.js.flow1654034156047871300 0
 79/home/bcherry4/pokemon-library-ts/node_modules/nth-check/lib/esm/parse.d.ts.map1654034155967871300 0

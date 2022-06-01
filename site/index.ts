@@ -33,7 +33,6 @@ fetch(url)
             })
         return Promise.all(httpReq)
         console.log(response)
-        // Safe
     }).then(responses => {
         responses.map(
             response => {
